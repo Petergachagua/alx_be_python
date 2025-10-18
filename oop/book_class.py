@@ -6,7 +6,7 @@ class Book:
         self.title = title
         self.author = author
         self.year = year
-     def __del__(self):
+    def __del__(self):
         """
         Destructor to handle object deletion.
         """
